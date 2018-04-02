@@ -50,11 +50,10 @@ Yes you can! Join in on our [GitHub repository](http://github.com/woothemes/wooc
 
 == Changelog ==
 
-= 1.0 =
+= 0.1 =
 * Added plugin for Masonry Gallery.
-
-== Upgrade Notice ==
-
-= 1.1 =
-
 * Update with ajax on front end and admin setting
+
+== Shortcode ==
+
+<?php echo do_shortcode('[mesonry_layout ID="6"]');?>
