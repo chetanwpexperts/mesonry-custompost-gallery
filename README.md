@@ -56,6 +56,6 @@ Yes you can! Join in on our [GitHub repository](http://github.com/woothemes/wooc
 
 == Shortcode ==
 
-"<?php echo do_shortcode('[mesonry_layout ID="6"]');?>"
+"< ? php echo do_shortcode('[mesonry_layout ID="6"]'); ? >"
 
 
