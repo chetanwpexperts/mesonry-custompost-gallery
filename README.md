@@ -1,5 +1,7 @@
 === Masonry Gallery ===
+
 WPExpertsWeb
+
 Tags: Gallery, Masonry Layout, Custom Layout, Bootstrap
 Requires at least: 4.4
 Tested up to: 4.5
