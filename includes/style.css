@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+
+div#content_area {
+	width: 78%;
+	background: #f9f9f9;
+	box-shadow: 0px 0px 13px -5px #1f0f1f;
+}
+body.opened-keditor-sidebar .keditor-content-area {
+	margin-right: 0px !important;
+}
+.keditor-content-area {
+	padding: 80px 50px 80px !important;
+}
+body,html{
+}
+.notice-success, div.updated {
+	border-left-color: #46b450;
+	width: 45%;
+	margin: 15px 0px 25px 3px;
+	border-top: 1px solid #46b450;
+}
+#window{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: rgba(255,255,255,0.6);
+	z-index: 99999;
+}
+
+#windowContent{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	right: 50px;
+	bottom: 30px;
+	background: #fff;
+	border: 1px solid #CCC;
+}
+
+#closeWindowButton{
+	color:#F00;
+}
+#closeWindowButton:hover{
+	font-weight: bold;
+}
+
+.absolute {
+    position: absolute;
+    top: -64px;
+    right: 295px;
+    width: 28%;
+}
+
+input#savephp {
+    padding: 8px; 
+    width: 100%;
+}
+
+.updated p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+    color: #0dab3dad;
+}
+#keditor-sidebar {
+    top: 36px !important;
+}
+
+.page{
+        display: block;
+}
+
+.page_1{
+	display: block;
+}
+
+.thumbnail{
+	height: 120px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.thumbnail:hover{
+	border-color:#f00;
+}
+
+.thumbnail img, .thumbnail video{
+	height: 100px;
+	width: 100%;
+	object-fit: contain;
+}
+
+#imageInfo{
+	background: #FFF;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#imageInfo img{
+	border: 1px solid #CCC;
+	width: 100%;
+	object-fit: contain;
+	height: 150px;
+	margin-bottom: 10px;
+
+}
+
+.container{
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+.customhw{
+	height: 245px;
+    width: 33%;
+}
+.photo-panel img{
+	height: 231px;
+	width: 100%;
+}
+.keditor-snippet-preview{
+	width: 100%;
+}
+.keditor-ui{
+	width: 100%;
+}
