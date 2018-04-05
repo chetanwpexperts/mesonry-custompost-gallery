@@ -1,5 +1,7 @@
 === Masonry Gallery ===
+
 WPExpertsWeb
+
 Tags: Gallery, Masonry Layout, Custom Layout, Bootstrap
 Requires at least: 4.4
 Tested up to: 4.5
@@ -33,13 +35,9 @@ There is no dummy data along with plugin. We are working on that part
 
 == Frequently Asked Questions ==
 
-= Where can I find the REST API documentation? =
-
-You can find the documentation of our REST API on the [WooCommerce REST API Docs](https://woothemes.github.io/woocommerce-rest-api-docs/).
-
 = Masonry Gallery is awesome! Can I contribute? =
 
-Yes you can! Join in on our [GitHub repository](http://github.com/woothemes/woocommerce/) :)
+Yes you can! Join in on our [GitHub repository](https://github.com/chetanwpexperts/mesonry-custompost-gallery) :)
 
 == Screenshots ==
 
@@ -48,11 +46,11 @@ Yes you can! Join in on our [GitHub repository](http://github.com/woothemes/wooc
 
 == Changelog ==
 
-= 1.0 =
+= 0.1 =
 * Added plugin for Masonry Gallery.
-
-== Upgrade Notice ==
-
-= 1.1 =
-
 * Update with ajax on front end and admin setting
+* Resolve the layout design issue on signle post page
+
+== Shortcode ==
+
+<?php echo do_shortcode('[mesonry_layout ID="postid"]');?>
