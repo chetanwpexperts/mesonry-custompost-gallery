@@ -9,6 +9,9 @@
 section {
     width: 68%;
 }
+.photo-panel img {
+    height: auto !important;
+}
 </style>
 <script type="text/javascript">
 		jQuery(document).ready(function($){
